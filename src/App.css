@@ -1,0 +1,238 @@
+.Navbar{
+  position:fixed;
+  width: 9.64em!important;
+  height:15em;
+  background-color: #fff;
+  margin-top:-8em;
+  z-index:1;
+  padding-left:6.5em;
+}
+
+.Header{
+  width: 72em;
+  margin-top:-8em;
+  position:fixed;
+  margin-left:16.13em;
+  padding-top:5.5em;
+  padding-bottom:0.8em;
+  padding-left:1em;
+  float:top!important;
+  z-index:1;
+  background-color: #fff;
+  -moz-box-shadow: -2px 2px 5px -2px rgba(0,0,0,0.11);
+  box-shadow: -2px 2px 5px -2px rgba(0,0,0,0.11);
+}
+
+
+.Body{
+  margin-left:16.13em;
+  border-left:2px solid #F6F6F7;
+  margin-top:8em;
+  padding:1em;
+  width: 65em;
+  background-color: #fff;
+}
+
+.heading{
+  margin-top:1.7em;
+  height:1.5em;
+  width:7.5em;
+}
+
+.subNav{
+  font-size:0.7em;
+  margin-top:4em;
+}
+
+.overview,.campaign,.influencer{
+  display:flex;
+  flex-direction: row;
+  margin-top: 2.5em;
+  text-indent: 1.8em;
+}
+
+.influencer{
+  color:blue;
+}
+
+.arrow{
+  height:0.6em;
+  width: 1.5em;
+}
+
+.search{
+  position:absolute;
+  margin-left: 2.5em;
+  margin-top: 0.6em;
+  height:1.1em;
+  width:1.1em;
+}
+
+input[type="text"]{
+  margin-left:1.8em;
+  padding-left:3em;
+  height:2.3em;
+  width: 25em;
+  border-radius: 0.4em;
+  background-color: #F5F5F5;
+  border:none;
+}
+
+.CSV,.newInf{
+  padding:0.59em;
+  border-radius: 0.4em;
+  margin-left:2em;
+  text-align: center;
+  border:none;
+  color:#fff;
+  cursor:pointer; 
+}
+
+.CSV{
+  margin-left:27em;
+  width:8.5em;
+  background-color: #02BDFD;
+}
+
+.newInf{
+  width:11em;
+  background-color: #6238F2;
+}
+
+.filter{
+  margin-left: 59em;
+  display:flex;
+  flex-direction: row;
+}
+
+.filterImg{
+  margin-left: 1em;
+}
+
+.infoBox{
+border:3px solid #F6F6F7;
+padding:0.4em;
+border-radius: 0.5em;
+margin-left: 1em;;
+}
+
+.checkInfo{
+  margin-left: 1em;;
+  display:flex;
+  flex-direction:row;
+}
+
+.infoImg{
+  width:5.5em;
+  height:5.5em;
+}
+
+.check{
+  margin-top:-9em;
+}
+
+.basicInfo{
+  margin-top:-6.5em;
+  margin-left: 7em;
+}
+
+.smallBasicInfo{
+  font-size: 0.8em;
+  color: #B6B5B5;
+}
+
+.socialImg{
+  height:1em;
+  margin:1em;
+  margin-left:2em;
+}
+
+
+.socialfigure{
+  position:absolute;
+  margin-top:3.5em;
+  margin-left:-3em;
+  color:#ABABAB;
+  font-weight: 700;
+  font-size:0.8em;
+}
+
+.socialInfo{
+  margin-left:40em;
+  margin-top:-5em;
+}
+
+.tags{
+  margin-top:3.6em;
+  font-size:0.8em
+}
+
+.tagbutton1,.tagbutton2,.tagbutton3{
+  border:none;
+  border-radius:0.4em;
+  color:#4ED1FE;
+  background-color: #E3F8FF;
+  cursor:pointer;
+}
+
+.tagbutton1{
+  margin-left:5.5em;
+}
+
+.tagbutton2,.tagbutton3{
+  margin-left:1em;
+}
+
+.footer{
+  margin-top:1.2em;
+  border-top:3px solid #F6F6F7;
+  padding-top:0.8em;
+  padding-bottom:0.9em;
+  font-size:0.7em;
+}
+
+t1{
+  margin-left:2em;
+  font-weight:600;
+}
+
+t3{
+  margin-left:3em;
+  font-weight:600;
+}
+
+.Delete,.Edit,.View{
+  height:2.2em;
+  width:6em;
+  border:none;
+  background-color: #fff;
+  cursor:pointer;
+  color: #714BF3;
+  border-radius:0.4em;
+}
+
+.Delete{
+  margin-left:25em;
+}
+
+.Delete:hover,.Edit:hover,.View:hover{
+  border: 1px solid #714BF3;
+}
+
+@media only screen and (max-width: 1300px) {
+  .CSV{
+     margin-left: 20em;
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  .CSV{
+     margin-left: 10em;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .CSV{
+     margin-left: 5em;
+  }
+}
