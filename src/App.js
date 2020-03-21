@@ -23,9 +23,9 @@ function App() {
     <div className="Navbar">
       <img src={heading} className="heading" alt="heading"/>
       <div className="subNav">
-        <p className="overview"><img src={overview} alt="overview"/>OVERVIEW</p>
-        <p className="campaign"><img src={campaign} alt="campaign"/>CAMPAIGN</p>
-        <p className="influencer"><img src={influencer} alt="influencer"/>INFLUENCER</p>
+        <p className="overview"><img src={overview} alt="overview"/><t>OVERVIEW</t></p>
+        <p className="campaign"><img src={campaign} alt="campaign"/><t>CAMPAIGN</t></p>
+        <p className="influencer"><img src={influencer} alt="influencer"/><t>INFLUENCER</t></p>
         </div>
     </div>
     <div className="Header">

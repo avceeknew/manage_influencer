@@ -48,7 +48,6 @@
   display:flex;
   flex-direction: row;
   margin-top: 2.5em;
-  text-indent: 1.8em;
 }
 
 .influencer{
@@ -63,7 +62,7 @@
 .search{
   position:absolute;
   margin-left: 2.5em;
-  margin-top: 0.6em;
+  margin-top: 0.45em;
   height:1.1em;
   width:1.1em;
 }
@@ -235,4 +234,8 @@ t3{
   .CSV{
      margin-left: 5em;
   }
+}
+
+t{
+  margin-left:1.3em;
 }
